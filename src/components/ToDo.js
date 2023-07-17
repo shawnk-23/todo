@@ -58,7 +58,7 @@ const ToDo = () => {
                     </table>
                 </div>
             
-                Task details<input type="text" onChange={onChangeHandler}/>
+                Tasks<input type="text" onChange={onChangeHandler}/>
                 <button className="bg-primary" onClick={clickHandler}>Add</button>
             
             </div>
